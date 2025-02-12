@@ -166,9 +166,7 @@ class BandService {
         val params = mapOf(
             "band_key" to bandKey,
             "content" to """
-                |${gameDate} 일정 빠른 투표 부탁드립니다.
-                |
-                |투표마감일은 ${endDate}까지 입니다.
+                |${gameDate} 일정에 대해 일요일까지 빠른 투표 부탁드립니다.
                 |
                 |투표는 메인화면에서 다가오는 일정이나 일정 탭에서 가능합니다.
             """.trimMargin(),
